@@ -1,10 +1,9 @@
 
-body{
-    margin: 0;
-    font-size: 16px;
-    font-family: 'Roboto', sans-serif;
-}
-
+    body{
+        margin: 0;
+        font-size: 16px;
+        font-family: 'Roboto', sans-serif;
+    }
 /* header section*/
 
 .header{
@@ -101,7 +100,7 @@ aside a{
 .title-text{
     margin-top: 0px;
     padding: 0 25px ;
-    font-weight: 100;
+    font-weight: 300;
     color: black;
 }
 .title-text h3{
@@ -117,6 +116,10 @@ aside a{
     border-radius: 12px;
     cursor: pointer;
     font-weight: 900;
+}
+.title-btn a{
+    color: white;
+    text-decoration: none;
 }
 
 .container{
@@ -140,10 +143,13 @@ aside a{
 .container-text{
     padding: 25px;
     font-weight:300;
-    color: #5d5a5a ;
+    color: #000000 ;
 }
 .container-text p{
     font-size: 14px;
+}
+.new{
+    border-radius: 12px;
 }
 .btn{
     outline: none;
@@ -159,7 +165,7 @@ a{
     font-weight: 700;
 }
 .btn:hover{
-    box-shadow: 2px 10px rgb(245, 245, 255);
+    box-shadow: 2px 1px 5px rgb(245, 245, 255);
 }
 /*footer section*/
 footer{
@@ -172,4 +178,38 @@ footer{
 .footer-slogan{
     padding-bottom: 10px;
     border-bottom: 1px rgba(255,255,255,0.3) solid;
+}
+
+/*the about page*/
+.modal-background{
+    background: url(images/bgimg5.png) center/cover repeat;
+    height: 100vh;   
+}
+
+.modal{
+    width: 80vw;
+    height: 60vh;
+    margin:auto;
+    margin-top: 20vh;
+    padding:10px 20px 0 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    border-radius: 12px;
+    box-shadow: 3px 3px 6px rgb(248, 247, 204);
+}
+
+.modal h3{
+     color: hsl(48, 87%, 59%);
+     text-transform: uppercase;
+}
+.modal p{
+    font-size: 0.95rem;
+}
+/*the contact page*/
+.contacts .btn{
+   margin-top: 40px;
+}
+.contact i{
+    padding-right: 10px;
 }
